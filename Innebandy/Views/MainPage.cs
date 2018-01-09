@@ -4,6 +4,7 @@ using System.Threading.Tasks;
 using Innebandy.Views;
 using Innebandy.Services;
 using Xamarin.Forms;
+using Microsoft.AppCenter.Analytics;
 
 namespace Innebandy.Views
 {

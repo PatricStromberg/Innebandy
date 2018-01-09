@@ -21,8 +21,8 @@ namespace Innebandy
 
         protected override void OnStart()
         {
-            AppCenter.Start("ios=4645fc84-66d5-417c-98f4-4622ca57fc52;" + "uwp={Your UWP App secret here};" +
-                   "android={Your Android App secret here}",
+            AppCenter.Start("android=56bca083-e2a3-4315-9e99-3aaee0c7e967;" + "uwp={Your UWP App secret here};" +
+                   "ios={Your iOS App secret here}",
                    typeof(Analytics), typeof(Crashes));
         }
 

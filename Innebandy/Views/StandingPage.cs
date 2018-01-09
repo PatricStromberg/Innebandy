@@ -1,9 +1,5 @@
 ﻿using System;
 using Xamarin.Forms;
-using Innebandy.Views;
-using Innebandy.Services;
-using System.Threading.Tasks;
-using System.Collections.Generic;
 using Innebandy.Models;
 using System.Collections.ObjectModel;
 using Innebandy;
