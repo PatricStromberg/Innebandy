@@ -5,6 +5,7 @@ using Innebandy.Views;
 using Innebandy.Services;
 using Xamarin.Forms;
 using Microsoft.AppCenter.Analytics;
+using Microsoft.AppCenter;
 
 namespace Innebandy.Views
 {
@@ -50,11 +51,13 @@ namespace Innebandy.Views
 
         async void Result(object sender, EventArgs e)
         {
+            Analytics.TrackEvent("Resultatknappen tryckt");
             await Navigation.PushAsync(new ResultPage());
         }
 
         async void Standings(object sender, EventArgs e)
         {
+            Analytics.TrackEvent("Tabellknappen tryckt");
             await Navigation.PushAsync(new StandingPage());
         }
     }
