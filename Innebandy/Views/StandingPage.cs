@@ -67,15 +67,15 @@ namespace Innebandy.Views
                 grid.RowDefinitions.Add(new RowDefinition { Height = GridLength.Auto });
                 grid.RowDefinitions.Add(new RowDefinition { Height = GridLength.Auto });
 
-                grid.ColumnDefinitions.Add(new ColumnDefinition { Width = 50 });
-                grid.ColumnDefinitions.Add(new ColumnDefinition { Width = 30 });
-                grid.ColumnDefinitions.Add(new ColumnDefinition { Width = 20 });
-                grid.ColumnDefinitions.Add(new ColumnDefinition { Width = 20 });
-                grid.ColumnDefinitions.Add(new ColumnDefinition { Width = 30 });
-                grid.ColumnDefinitions.Add(new ColumnDefinition { Width = 30 });
-                grid.ColumnDefinitions.Add(new ColumnDefinition { Width = 10 });
-                grid.ColumnDefinitions.Add(new ColumnDefinition { Width = 40 });
-                grid.ColumnDefinitions.Add(new ColumnDefinition { Width = 30 });
+                grid.ColumnDefinitions.Add(new ColumnDefinition { Width = GridLength.Auto });
+                grid.ColumnDefinitions.Add(new ColumnDefinition { Width = GridLength.Auto });
+                grid.ColumnDefinitions.Add(new ColumnDefinition { Width = GridLength.Auto });
+                grid.ColumnDefinitions.Add(new ColumnDefinition { Width = GridLength.Auto });
+                grid.ColumnDefinitions.Add(new ColumnDefinition { Width = GridLength.Auto });
+                grid.ColumnDefinitions.Add(new ColumnDefinition { Width = GridLength.Auto });
+                grid.ColumnDefinitions.Add(new ColumnDefinition { Width = GridLength.Auto });
+                grid.ColumnDefinitions.Add(new ColumnDefinition { Width = GridLength.Auto });
+                grid.ColumnDefinitions.Add(new ColumnDefinition { Width = GridLength.Auto });
                 grid.ColumnDefinitions.Add(new ColumnDefinition { Width = GridLength.Star });
 
                 var rankLabel = new Label { HorizontalTextAlignment = TextAlignment.Center, VerticalTextAlignment = TextAlignment.Center, TextColor = Color.FromRgb(52, 152, 218), FontAttributes = FontAttributes.Bold, FontSize = 40 };
